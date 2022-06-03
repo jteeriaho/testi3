@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suora &#8212; testaus</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Paraabeli interaktiivinen" href="parap.html" />
+    <link rel="prev" title="Caesar salaus" href="caesar.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">testaus</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Esimerkit
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="caesar.html">
+   Caesar salaus
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Suora
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="parap.html">
+   Paraabeli interaktiivinen
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/suora.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/jteeriaho/testi2"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/jteeriaho/testi2/main?urlpath=tree/suora.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Suora</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="suora">
+<h1>Suora<a class="headerlink" href="#suora" title="Permalink to this headline">¶</a></h1>
+<p>Suoran parametrit ovat kulmakerroin ja vakiotermi. Tutustutaan seuraavaksi miten nämä vaikuttavat suoran yhtälöön sekä suoran kuvaajaan:
+Klikkaa raketti-ikonia ja valitse ‘Live Code’. Paina tämän jälkeen ‘restart &amp; run all’. Säädä liukusäätimiä käyttäen suoran parametreja, suoran kuvaaja sekä sen yläpuolella oleva suoran yhtälö (ratkaistu muoto) päivittyy automaattisesti.</p>
+<div class="cell tag_hide-input tag_thebe-init docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+
+
+<span class="k">def</span> <span class="nf">tee_suoran_yhtälön_printtauksen_teksti</span><span class="p">(</span><span class="n">kulmakerroin</span><span class="p">,</span> <span class="n">vakiotermi</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">sign</span><span class="p">(</span><span class="n">kulmakerroin</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">kulmakertoimen_teksti</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">kulmakertoimen_teksti</span> <span class="o">=</span> <span class="s1">&#39;-&#39;</span>
+    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">kulmakerroin</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">kulmakertoimen_teksti</span> <span class="o">+=</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">kulmakerroin</span><span class="p">))</span>
+    <span class="n">vakiotermin_teksti</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="k">if</span> <span class="n">vakiotermi</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">sign</span><span class="p">(</span><span class="n">vakiotermi</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">vakiotermin_teksti</span> <span class="o">+=</span> <span class="s1">&#39;+&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">vakiotermin_teksti</span> <span class="o">+=</span> <span class="s1">&#39;-&#39;</span>
+        <span class="n">vakiotermin_teksti</span> <span class="o">+=</span> <span class="nb">str</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">vakiotermi</span><span class="p">))</span>
+    <span class="k">return</span> <span class="s1">&#39;y = </span><span class="si">{}</span><span class="s1">x</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">kulmakertoimen_teksti</span><span class="p">,</span> <span class="n">vakiotermin_teksti</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">suoran_maaritys_ja_plottaus</span><span class="p">(</span><span class="n">kulmakerroin</span><span class="p">,</span> <span class="n">vakiotermi</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">kulmakerroin</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="n">vakiotermi</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">([</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$x$&#39;</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;right&#39;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$y$&#39;</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;top&#39;</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="n">tee_suoran_yhtälön_printtauksen_teksti</span><span class="p">(</span><span class="n">kulmakerroin</span><span class="p">,</span> <span class="n">vakiotermi</span><span class="p">))</span>
+    
+    <span class="k">return</span> <span class="n">kulmakerroin</span><span class="p">,</span> <span class="n">vakiotermi</span>
+
+<span class="k">def</span> <span class="nf">suoran_maaritys_ja_plottaus_interaktiivisesti</span><span class="p">():</span>
+    <span class="n">interactive_plot</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">interactive</span><span class="p">(</span><span class="n">suoran_maaritys_ja_plottaus</span><span class="p">,</span>
+                                           <span class="n">kulmakerroin</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="nb">min</span><span class="o">=-</span><span class="mi">5</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+                                                                              <span class="n">description</span><span class="o">=</span><span class="s1">&#39;kulmakerroin&#39;</span><span class="p">),</span>
+                                           <span class="n">vakiotermi</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">FloatSlider</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="nb">min</span><span class="o">=-</span><span class="mi">5</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+                                                                              <span class="n">description</span><span class="o">=</span><span class="s1">&#39;vakiotermi&#39;</span><span class="p">))</span>
+                                          
+    <span class="k">return</span> <span class="n">interactive_plot</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">interactive_plot</span><span class="o">=</span><span class="n">suoran_maaritys_ja_plottaus_interaktiivisesti</span><span class="p">()</span>
+<span class="n">interactive_plot</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "57d2cf84226446ac94cb606c71e6f3e4", "version_major": 2, "version_minor": 0}
+</script></div>
+</div>
+</div>
+
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"state": {"19271e9fb2414efda5bde88e401fcea3": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "1cecb517e0ed4b049868c6b5c27755b2": {"model_module": "@jupyter-widgets/output", "model_module_version": "1.0.0", "model_name": "OutputModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/output", "_model_module_version": "1.0.0", "_model_name": "OutputModel", "_view_count": null, "_view_module": "@jupyter-widgets/output", "_view_module_version": "1.0.0", "_view_name": "OutputView", "layout": "IPY_MODEL_19271e9fb2414efda5bde88e401fcea3", "msg_id": "", "outputs": [{"data": {"image/png": "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\n", "text/plain": "<Figure size 432x288 with 1 Axes>"}, "metadata": {"needs_background": "light"}, "output_type": "display_data"}]}}, "29d39d97d74343b989f03af1fad6226d": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "3687ac95e08b438fbcc592901e8c9d48": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "3e9931b685544034a9992b7ec363028b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatSliderModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatSliderModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "FloatSliderView", "continuous_update": true, "description": "vakiotermi", "description_tooltip": null, "disabled": false, "layout": "IPY_MODEL_3687ac95e08b438fbcc592901e8c9d48", "max": 5.0, "min": -5.0, "orientation": "horizontal", "readout": true, "readout_format": ".2f", "step": 0.1, "style": "IPY_MODEL_9fee9c72de0b4405924a42185862decb", "value": 0.0}}, "4964c1c555a948948d5ce4747af826b5": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatSliderModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatSliderModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "FloatSliderView", "continuous_update": true, "description": "kulmakerroin", "description_tooltip": null, "disabled": false, "layout": "IPY_MODEL_c511717364b3490fbb3410c29eafc154", "max": 5.0, "min": -5.0, "orientation": "horizontal", "readout": true, "readout_format": ".2f", "step": 0.1, "style": "IPY_MODEL_dd1a50c2b38d488b91d9b684a1d01ff6", "value": 0.1}}, "57d2cf84226446ac94cb606c71e6f3e4": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "VBoxModel", "state": {"_dom_classes": ["widget-interact"], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "VBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "VBoxView", "box_style": "", "children": ["IPY_MODEL_4964c1c555a948948d5ce4747af826b5", "IPY_MODEL_3e9931b685544034a9992b7ec363028b", "IPY_MODEL_1cecb517e0ed4b049868c6b5c27755b2"], "layout": "IPY_MODEL_29d39d97d74343b989f03af1fad6226d"}}, "9fee9c72de0b4405924a42185862decb": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "SliderStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "SliderStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": "", "handle_color": null}}, "c511717364b3490fbb3410c29eafc154": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "dd1a50c2b38d488b91d9b684a1d01ff6": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "SliderStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "SliderStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": "", "handle_color": null}}}, "version_major": 2, "version_minor": 0}
+</script>
+
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "jteeriaho/testi2",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="caesar.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Caesar salaus</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="parap.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Paraabeli interaktiivinen</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By JT<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
