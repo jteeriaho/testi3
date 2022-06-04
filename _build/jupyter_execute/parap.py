@@ -16,20 +16,20 @@ def tulosta(a,b,c):
     if b>0:
         v1='+'
     else:
-        v1='-'
+        v1=''
     if c>0:
         v2='+'
     else:
-        v2='-'
+        v2=''
     print('Paraabelin yhtälö: y = ',a,'x^2',v1,b,'x',v2,c)
-    print('Paraabelin huippu: x =',-b/(2*a),' y =',c-b**2/(4*a))
     dk=b**2-4*a*c
     if dk<0:
-        print('Ei reaalijuuria')
+        print('Juuret: ei reaalijuuria')
     elif dk==0:
-        print('Kaksoisjuuri ',-b/(2*a))
+        print('Juuret: kaksoisjuuri ',-b/(2*a))
     else:
-        print('Kaksi reaalijuurta: ',round((-b-sqrt(dk))/(2*a),3),' ja ',round((-b+sqrt(dk))/(2*a),3))
+        print('Juuret: kaksi reaalijuurta: ',round((-b-sqrt(dk))/(2*a),3),' ja ',round((-b+sqrt(dk))/(2*a),3))
+    print('Paraabelin huippu: x =',-b/(2*a),' y =',c-b**2/(4*a))
     print('\n             Kuvaaja:')
 
 def paraabeli(a:str, b:str,c:str):
