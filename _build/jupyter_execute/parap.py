@@ -47,6 +47,7 @@ def paraabeli(a:str, b:str,c:str):
     ax.set_ylabel(r'$y$', loc='top')
     tulosta(a1,b1,c1)
     
+
 #paraabeli(2,3,-5)
 print('Anna paraabelin kertoimet:')
 widgets.interact(paraabeli,a='2',b='3',c='-5')
