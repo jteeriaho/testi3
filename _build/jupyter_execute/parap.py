@@ -33,9 +33,9 @@ def tulosta(a,b,c):
     print('\n             Kuvaaja:')
 
 def paraabeli(a:str, b:str,c:str):
-    a1=int(a)
-    b1=int(b)
-    c1=int(c)
+    a1=float(a)
+    b1=float(b)
+    c1=float(c)
     x = np.linspace(-5, 5, 100)
     y = a1*x**2+b1*x + c1
     fig, ax = plt.subplots()
